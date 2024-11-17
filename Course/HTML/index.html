@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Tutorial</title>
+</head>
+
+<body>
+    <!-- Heading  -->
+    <h1 id="heading">Heading</h1>
+    <hr>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <!-- Line Break -->
+    <h1 id="heading">Line Break</h1>
+    <br>
+
+    <!-- Comment -->
+    <!-- Write your comments here -->
+
+    <!-- Horizontal Line -->
+    <h1 id="heading">Horizontal Line</h1>
+    <hr>
+
+    <!-- Link -->
+    <h1 id="link">Link</h1>
+    <hr>
+    <a href="https://google.com">Go to google</a>
+    <br>
+    <a href="#paragraph">go to paragraph</a>
+
+    <!-- Paragraph -->
+    <h1 id="paragraph">Paragraph</h1>
+    <hr>
+    <p>This is paragraph 1</p>
+
+    <p>This is paragraph 2</p>
+
+    <!-- Formatting Elements -->
+    <h1>Formatted Text</h1>
+    <hr>
+
+    <p><b>This text is bold</b></p>
+    <p><strong>This text is important!</strong></p>
+    <p><i>This text is italic</i></p>
+    <p><em>This text is emphasized</em></p>
+    <p>Do not forget to buy <mark>milk</mark> today.</p>
+    <p><small>This is some smaller text.</small></p>
+    <p>My favorite color is <del>blue</del> red.</p>
+    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <p>This is <sub>subscripted</sub> text.</p>
+    <p>This is <sup>superscripted</sup> text.</p>
+
+    <p>KK's goal is to: <q>Learn programming in an easy way!</q></p>
+    <p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <p><cite>The Scream</cite> by Edvard Munch. Painted in 1893.</p>
+    <p><bdo dir="rtl">This text will be written from right to left</bdo></p>
+    <p>My son has <span style="color:blue">blue</span> eyes.</p>
+
+
+    <!-- List -->
+    <!-- Unordered list and Ordered List -->
+    <h1>List</h1>
+    <hr>
+    <h3>Unordered List</h3>
+    <ul id="list" type="circle">
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ul>
+    <h3>Ordered List</h3>
+    <ol type="n">
+        <li>First</li>
+        <li>Second</li>
+        <li>Third</li>
+    </ol>
+
+    <!-- Create a Table  -->
+    <h1>Table</h1>
+    <hr>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Class</th>
+                <th>Roll No.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Kumar</td>
+                <td>B.Tech.</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <td>Sita</td>
+                <td>12th</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Jammy</td>
+                <td>13th</td>
+                <td>20</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total:</td>
+                <td>20 $</td>
+                <td></td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <!-- Input Types -->
+    <h1>Input Types</h1>
+    <hr>
+
+    text: <input type="text" /><br><br>
+    password: <input type="password" /><br><br>
+    number: <input type="number" /><br><br>
+    email: <input type="email" /><br><br>
+    search: <input type="search" /><br><br>
+    tel: <input type="tel" /><br><br>
+    url: <input type="url" /><br><br>
+
+    checkbox: <input type="checkbox" /><br><br>
+    radio: <input type="radio" /><br><br>
+
+    file: <input type="file" /><br><br>
+
+    date: <input type="date" /><br><br>
+    week: <input type="week" /><br><br>
+    month: <input type="month" /><br><br>
+    datetime-local: <input type="datetime-local" /><br><br>
+    time: <input type="time" /><br><br>
+
+    color: <input type="color" /><br><br>
+    hidden: <input type="hidden" /><br><br>
+    range: <input type="range" /><br><br>
+
+    button: <input type="button" value="Button" /><br><br>
+    submit: <input type="submit" /><br><br>
+    reset: <input type="reset" /><br><br>
+
+    <!-- Create a form  -->
+    <h1>Form</h1>
+    <hr>
+    <form>
+        <!-- Textbox -->
+        <label for="firstName">First Name</label>
+        <input type="text" id="firstName">
+
+        <!-- Password -->
+        <br><br>
+        <label for="lastName">Last Name</label>
+        <input type="text" name="" id="lastName">
+
+        <!-- Password -->
+        <br><br>
+        <label for="pwd">Password</label>
+        <input type="password" name="" id="pwd">
+
+        <!-- Number -->
+        <br><br>
+        <label for="">Age</label>
+        <input type="number" name="" id="">
+
+        <!-- Checkbox -->
+        <br><br>
+        <label for="std">Student</label>
+        <input type="checkbox" name="" id="std">
+
+        <br><br>
+        <!-- Radio Button  -->
+        <label for="gender">Gender</label>
+        <input type="radio" name="gender" id="male"> Male
+        <input type="radio" name="gender" id="female"> Female
+
+        <br><br>
+        <!-- Meter -->
+        <label for="disk_d">Disk usage D:</label>
+        <meter id="disk_d" value="0.6">60%</meter>
+
+        <!-- Datepicker -->
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="" id="dob">
+
+        <!-- Color picker -->
+        <br><br>
+        <label for="color">Color</label>
+        <input type="color" name="" id="color">
+
+        <!-- File -->
+        <br><br>
+        <label for="uploadFile">Submit your file</label>
+        <input type="file" name="" id="uploadFile">
+
+        <!-- Select -->
+        <br><br>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="suzuki">Suzuki</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="audi">Audi</option>
+        </select>
+
+        <!-- textarea -->
+        <br><br>
+        <label for="textArea">Description</label>
+        <textarea id="textArea" name="textArea" rows="4" cols="50">
+        This is a text area.
+        </textarea>
+
+        <!-- Button -->
+        <br><br>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+    </form>
+
+    <!-- Image  -->
+    <h1>Image</h1>
+    <hr>
+    <img src="./assets/image.JPG" alt="home">
+
+    <!-- Iframe -->
+    <h1>Iframe</h1>
+    <hr>
+    <iframe width="230" height="158" src="https://www.youtube.com/embed/R4LaeN9bmj0"
+        title="JavaScript Interview Questions" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+    <!-- Audio  -->
+    <h1>Audio</h1>
+    <hr>
+    <audio controls>
+        <source src="./assets/audio.m4a">
+    </audio>
+
+    <!-- Video  -->
+    <h1>Video</h1>
+    <hr>
+    <video controls height="330px" width="330px">
+        <source src="./assets/video.mp4">
+    </video>
+
+    <!-- Address  -->
+    <h1>Address</h1>
+    <address>
+        Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
+        Visit us at:<br>
+        Example.com<br>
+        Box 564, Disneyland<br>
+        USA
+    </address>
+
+    <!-- Navigation  -->
+    <h1>Navigation</h1>
+    <hr>
+    <nav>
+        <a href="/html/">HTML</a> |
+        <a href="/css/">CSS</a> |
+        <a href="/js/">JavaScript</a> |
+        <a href="/jquery/">jQuery</a>
+    </nav>
+
+    <!-- Image Map  -->
+    <h1>Image Map</h1>
+    <hr>
+    <img src="./assets/image.JPG" alt="Workplace" usemap="#work_map">
+    <map name="work_map">
+        <area shape="poly" coords="30,30,80,26,96,70,144,83,111,117,53,95,29,42" alt="Computer" href="computer.htm">
+        <area shape="poly" coords="13,107,29,100,66,116,52,125,15,109" alt="Phone" href="phone.htm">
+        <area shape="rect" coords="102,34,120" alt="Pot" href="pot.htm">
+    </map>
+
+
+    <!-- Html Entities  -->
+    <h1>HTML Entities</h1>
+    <hr>
+    <span>&nbsp;</span>
+    <span>&lt;</span>
+    <span>&gt;</span>
+    <span>&amp;</span>
+    <span>&quot;</span>
+    <span>&pound;</span>
+    <span>&yen;</span>
+    <span>&reg;</span>
+    <span>&copy;</span>
+    <span>&percnt;</span>
+    <!-- 
+    non-breaking space          &nbsp;      &#160;  
+<   less than                   &lt;        &#60;   
+> greater than                &gt;        &#62;   
+> &   ampersand                   &amp;       &#38;   
+> "   double quotation mark       &quot;      &#34;   
+> '   single quotation mark       &apos;      &#39;   
+> ¢   cent                        &cent;      &#162;  
+> £   pound                       &pound;     &#163;  
+> ¥   yen                         &yen;       &#165;  
+> €   euro                        &euro;      &#8364; ©   copyright                   &copy;      &#169;  
+> ®   trademark                   &reg;       &#174; %   percent                     &percnt;    &#37; 
+
+    -->
+
+
+    <!-- Emojis  -->
+    <h1>Emojis</h1>
+    <hr>
+    <p>I will display &#128512;</p>
+    <p>I will display &#128528;</p>
+
+
+    <!-- Block and Inline Element -->
+    <h1>Block and Inline Element</h1>
+    <hr>
+    <p>para 1</p>
+    <p>para 2</p>
+
+    <span>span 1</span>
+    <span>span 2</span>
+
+    <!-- 
+        <address> <article> <aside> <blockquote> <canvas> <dd> <div> <dl> <dt> <fieldset> <figcaption> <figure> <footer> <form> <h1>-<h6> <header> <hr> <li> <main> <nav> <noscript> <ol> <p> <pre> <section> <table> <tfoot> <ul> <video>
+     -->
+
+    <!-- 
+        <a> <abbr> <acronym> <b><bdo> <big> <br><button> <cite> <code> <dfn> <em> <i> <img> <input> <kbd> <label> <map> <object> <output> <q> <samp> <script> <select> <small> <span> <strong> <sub> <sup> <textarea> <time> <tt> <var>
+    -->
+
+
+    <!-- Code Block -->
+    <h1>Code block</h1>
+    <hr>
+    <code>
+        x + y = z; <br>
+        2 + 3  = 5;
+    </code>
+
+
+    <!-- Semantic/Non Semantic Tags -->
+    <h1>Semantic/Non Semantic Tags</h1>
+    <hr>
+
+    <!-- 
+        <article>
+        <aside>
+        <details>
+        <figcaption>
+        <figure>
+        <footer>
+        <header>
+        <main>
+        <mark>
+        <nav>
+        <section>
+        <summary>
+        <time>
+        <form>
+        <table>
+        <article>
+        -->
+
+    <!--  
+        <div>
+        <span>
+    -->
+
+
+    <!-- Meta -->
+    <h1>Meta</h1>
+    <hr>
+    <!--  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    -->
+
+
+    <!-- ICon Link -->
+    <h1>ICon Link</h1>
+    <hr>
+    <!--  
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    -->
+
+</body>
+
+</html>
